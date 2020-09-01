@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+	<style>
+		#nav
+		{
+			overflow: hidden;
+			display: inline;
+		}
+		#nav img
+		{
+			margin:0px;
+		}
+		#nav ul
+		{
+			
+			float: right;
+		}
+		#nav ul li
+		{
+			display: inline;
+			margin: 20px;
+			margin-right: 90px;
+		}
+		#nav ul li a
+		{
+			text-decoration: none;
+			color:black;
+			font-family: arial;
+		}
+		#nav ul button
+		{
+			width: 80px;
+			margin-right: 20px;
+			height: 40px;
+			border-radius: 5px;
+			background-color: white;
+			border-color: #3E60F3;
+		}
+		#nav ul button a
+		{
+			text-decoration: none;
+			color: #3E60F3;
+			font-family:arial;
+			font-weight: 30px;
+		}
+		#nav ul button:hover
+		{
+			background-color: #3E60F3;
+		}
+        #nav ul button a:hover
+        {
+        	color: white;
+        }
+        #tell 
+        {
+         font-size: 100px;
+         font-family: arial;
+        }
+         #te
+        {
+         font-size: 25px;
+         font-family: mistral;
+        }
+        #but button 
+        {
+        	width: 200px;
+        	height: 100px;
+        	border-radius: 50px;
+        	border-color: white;
+        	background-color: blue;
+        }
+        #but button a
+        {
+        	text-decoration: none;
+        	font-family: arial;
+        	font-size: 25px;
+        	color: white;
+        }
+        #div
+        {
+        	display: grid;
+        	
+        	margin: 20px auto;
+        	height: 500px;
+            grid-template-columns:300px 900px 400px;
+        }
+        #div .div1
+        {
+        	margin:20px;
+        	width: 35%;
+        
+        }
+        #div .div2
+        {
+        	
+        }
+        #div .div2 img
+        {
+        	width: 100%;
+        	height: 700px;
+
+        }
+        #div2 
+        {
+        	
+        	margin:20px auto;
+        	display: grid;
+        	height: 700px;
+        	grid-template-columns: repeat(2,1fr);
+        	background-color: #1A21A0;
+        }
+        #div2 .div1
+        {
+        	margin-right:40px;
+        	color: white;
+        	margin: 30px;
+        	margin-top: 340px;
+        	font-family: arial;
+        	font-size: 40px;
+        }
+         #div2 .div2
+        {
+        	
+        	color: white;
+        	margin: 30px;
+        	margin-top: 340px;
+        	font-family: arial;
+        	font-size: 25px;
+        }
+        #div2  .div2 p
+        {
+        	color:white;
+        	font-size: 30px;
+        	text-decoration:none;	
+        }
+        #div3
+        {
+        	width: 100%;
+        	
+        	margin: 0px;
+        	display: grid;
+        	grid-template-columns: repeat(2,1fr);
+        	height: 700px;
+        }
+        #div3 .div1
+        {
+        	background-color:#5D9A5B;
+
+        }
+        #div3 .div1 b
+        {
+        	font-family: arial;
+        	font-size:40px;
+        	color: white;
+        	margin-top: 40px;
+        	margin-left: 20px;
+        }
+        #div3 .div1 p
+        {
+        	margin:40px;
+        	font-size: 20px;
+        }
+        #div3 .div1 h2
+        {
+        	margin:70px;
+        	color: white;
+        	font-size:20px;
+
+        }
+        #div3 .div1
+        {
+        	font-family: arial;
+        	color:white;
+        	margin-left:20px;
+        }
+        #div3 .div2
+        {
+        	margin:40px;
+        }
+
+        #div3 .div2 img
+        {
+          margin-top:260px;
+        }
+        #div4
+        {
+        	display: grid;
+        	width: 85%;
+        	
+        	height: 1800px;
+        	margin:20px auto;
+        	grid-template-columns: repeat(2,1fr);
+        	grid-template-rows: repeat(3,1fr);
+        }
+        #div4 .div1 img
+        {
+        	margin:20px;
+        }
+        #div4 .div2 
+        {
+        	font-family: arial;
+        	color: solid black;
+        	font-size: 40px;
+        	margin: 100px;
+        }
+        #div4 .div2 p
+        {
+        	font-family: arial;
+        	color: black;
+        	margin-top: 80px;
+        	font-size:20px;
+        }
+        #div4 .div2 a
+        {
+        	text-decoration: none;
+        	color: black;
+        	font-size: 30px;
+        }
+        #div4 .div3 
+        {
+        	font-family: arial;
+        	color: solid black;
+        	font-size: 40px;
+        	margin: 100px;
+        }
+        #div4 .div3 p
+        {
+        	font-family: arial;
+        	color: black;
+        	margin-top: 80px;
+        	font-size:20px;
+        }
+        #div4 .div4 
+        {
+        	font-family: arial;
+        	color: solid black;
+        	font-size: 40px;
+        	margin: 100px;
+        }
+        #div4 .div4 p
+        {
+        	font-family: arial;
+        	color: black;
+        	margin-top: 80px;
+        	font-size:20px;
+        }
+         #div4 .div3 a
+        {
+        	text-decoration: none;
+        	color: black;
+        	font-size: 30px;
+        }
+         #div4 .div4 a
+        {
+        	text-decoration: none;
+        	color: black;
+        	font-size: 30px;
+        }
+        #div4 .div5 img
+        {
+        	margin:20px;
+        	width: 80%;
+        	height: 400px;
+        }
+        #div4 .div6 img
+        {
+        	margin:20px;
+        	width: 80%;
+        	height: 400px;
+        }
+          #get b
+          {
+          	font-size:30px;
+          	margin-left: 80px;
+          	font-family: arial;
+
+          }
+          #you
+          {
+          	margin-left: 160px;
+          }
+          #you b
+          {
+          	font-size: 60px;
+            font-family: arial;
+          }
+          #div5 
+          {
+          	display: grid;
+          	width: 85%;
+          	margin:20px auto;
+          	height: 1900px;
+          	grid-template-columns: repeat(2,1fr);
+          	grid-template-rows: repeat(3,1fr);
+          }
+          #div5 .div1 img
+          {
+          	margin:20px;
+          }
+          #div5 .div1 b
+          {
+          	margin:60px; 
+          	font-family: arial;
+          	font-size: 30px;
+          }
+          #div5 .div1 p
+          {
+          	margin-left: 40px;
+          	font-size: 20px;
+          }
+          #div5 .div1 p a
+          {
+          	margin:20px;
+          	font-size: 20px;
+          	text-decoration: none;
+          }
+          #div5 .div2 img
+          {
+          	margin-top:70px;
+          }
+          #div5 .div2 b
+          {
+          	margin:60px; 
+          	font-family: arial;
+          	font-size: 30px;
+          }
+           #div5 .div2 p
+          {
+          	margin-left: 40px;
+          	font-size: 20px;
+          }
+          #div5 .div2 p a
+          {
+          	margin:20px;
+          	font-size: 20px;
+          	text-decoration: none;
+          }
+          #div5 .div3 img
+          {
+          	margin-left:40px;
+          }
+          #div5 .div3 b
+          {
+          	margin:60px; 
+          	font-family: arial;
+          	font-size: 30px;
+          }
+            #div5 .div3 p
+          {
+          	margin-left: 40px;
+          	font-size: 20px;
+          }
+          #div5 .div4 img
+          {
+          	margin-top:70px;
+          }
+           #div5 .div4 b
+          {
+          	margin:60px; 
+          	font-family: arial;
+          	font-size: 30px;
+          }
+          #div5 .div4 p
+          {
+          	margin-left: 40px;
+          	font-size: 20px;
+          }
+           #div5 .div4 p a
+          {
+          	margin:10px;
+          	font-size:20px;
+          	text-decoration: none;
+          }
+          #div5 .div5 img
+          {
+          	margin-top:20px;
+          	margin-left: 20px;
+          }
+          #div5 .div5 b
+          {
+          	margin:60px; 
+          	font-family: arial;
+          	font-size: 30px;
+          }
+          #div5 .div5 p
+          {
+          	margin-left: 40px;
+          	font-size: 20px;
+          }
+            #div5 .div5 p a
+          {
+          	margin:10px;
+          	font-size:20px;
+          	text-decoration:none;
+          }
+           #div5 .div6 img
+          {
+          	margin-top:80px;
+          	margin-left: 20px;
+          }
+          #div5 .div6 b
+          {
+          	margin:60px; 
+          	font-family: arial;
+          	font-size: 30px;
+          }
+          #div5 .div6 p
+          {
+          	margin-left: 40px;
+          	font-size: 20px;
+          }
+            #div5 .div6 p a
+          {
+          	margin:10px;
+          	font-size:20px;
+          	text-decoration:none;
+          }
+          #div6
+          {
+          	
+          	display:grid;
+            width:100%;
+            margin:20px auto;
+            height: 790px;
+            grid-template-columns: repeat(2,1fr);
+            background-color: #E5E7E9;
+          }
+          #div6 .div2
+          {
+          	margin:130px;
+            font-family: arial;
+            font-size: 40px;
+
+          }
+          #div6 .div2 p
+          {
+          	margin-top: 130px;
+          	font-family:arial;
+          	font-size: 20px;
+          }
+          #div6 .div2 p a
+          {
+          	text-decoration: none;
+          	color: black;
+
+          	font-family:arial;
+          	font-size: 20px;
+          }
+          #div7
+          {
+          	display:grid;
+          	border:2px solid black;
+          	width: 100%;
+          	margin:0px;
+          	height: 800px;
+          	grid-template-columns: repeat(2,1fr);
+          	background-color: black;
+          }
+          #div7 .div1 
+          {
+          	color: white;
+          	font-family: arial;
+          	font-size: 60px;
+          	margin:70px;
+          	margin-top: 350px; 	
+          }
+          #div7 .div2
+          {
+          	color: white;
+          	font-size: 20px;
+          	margin-top: 290px;
+          	font-family: arial;
+          }
+          #div7 .div2 a
+          {
+          	text-decoration: none;
+          	color: white;
+          }
+          #how
+          {
+          	margin:0px;
+          	background-color:#E5E7E9;
+          	height: 700px;
+          }
+          #how h2
+          {
+          	margin-left: 240px;
+          	font-size: 50px;
+          	font-family:sans-serif; 
+          }
+          #how h5
+          {
+          	font-size: 20px;
+          	font-family: sans-serif;
+          	margin-left: 240px;
+          }
+          #how p
+          {
+          	margin-left: 90px;
+          	font-size: 20px;
+          	font-family:monospace;
+         
+          }
+          #how b
+          {
+          	display: inline;
+          	margin:20px;
+          }
+          #how b a
+          {
+          	font-family: monospace;
+          	color: black;
+          	font-size: 30px;
+          	margin: 70px;
+          	margin-bottom: 30px;
+          }
+          #how b a:hover
+          {
+          	color: blue;
+          }
+          #stu h2
+          {
+text-align: center;
+font-family: arial;
+font-size: 40px;
+          }
+          #stu h4
+          {
+          	text-align: center;
+          	font-family: arial;
+          	font-size: 20px;
+          }
+          #div8
+          {
+          	width: 95%;
+          	margin:40px auto;
+          	display: grid;
+         
+          	height: 1000px;
+          	grid-template-columns: repeat(3,1fr);
+          	grid-template-rows: repeat(2,1fr);
+          }
+          #div8 .div1 
+          {
+          	text-align: center;
+          }
+          #div8 .div2
+          {
+          	text-align: center;
+          }
+          #div8 .div3 
+          {
+          	text-align: center;
+          }
+          #div8 .div4 
+          {
+          	text-align: center;
+          }
+          #div8 .div5 
+          {
+          	text-align: center;
+          }
+          #div8 .div6 
+          {
+          	text-align: center;
+          }
+          #see a
+          {
+          	text-decoration: none;
+          	font-family: sans-serif;
+          	color: black;
+          	font-size: 40px;
+          }
+          #div9
+          {
+          	display: grid;
+          	margin:0px;
+          	width: 100%;
+          	height: 800px;
+          	grid-template-columns: repeat(5,1fr);
+          }
+          #div9 .div1
+          {
+          	margin-left: 30px;
+          	display:inline;
+          }
+          #div9 .div1 b
+          {
+          	font-size: 30px;
+          	font-family: sans-serif;
+          }
+          #div9 .div1 a
+          {
+          	text-decoration:none;
+          	font-size: 20px;
+          	font-family:Sanskrit Text;
+          	color: black;
+          }
+          #div9 .div2 b
+          {
+          	font-size: 30px;
+          	font-family: sans-serif;
+          }
+#div9 .div2 a
+          {
+          	text-decoration:none;
+          	font-size: 20px;
+          	font-family:Sanskrit Text;
+          	color: black;
+          }
+           #div9 .div3 b
+          {
+          	font-size: 30px;
+          	font-family: sans-serif;
+          }
+          #div9 .div3 a
+          {
+          	text-decoration:none;
+          	font-size: 20px;
+          	font-family:Sanskrit Text;
+          	color: black;
+          }
+           #div9 .div4 b
+          {
+          	font-size: 30px;
+          	font-family: sans-serif;
+          }
+          #div9 .div4 a
+          {
+          	text-decoration:none;
+          	font-size: 20px;
+          	font-family:Sanskrit Text;
+          	color: black;
+          }
+     	</style>
+</head>
+<body>
+<div id="nav">
+<img src="nav.png" width="80px" height="70px">
+	<ul>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/feature.html">Features</a></li>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/explore.html">Explore</a></li>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/subscription.html">Subscription</a></li>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/temp.html">Template</a></li>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/partner.html">Wix partner</a></li>
+		
+		<button><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/get%20started.html">Sign Up</a></button>
+	</ul>
+</div>
+<hr>
+<br>
+<br>
+<div id="tell">
+	<center>Create a Website
+<br>
+	 You’re Proud Of</center>
+</div>
+<br>
+<br>
+<div id="te">
+	<center>Discover the platform that gives you the freedom to create, design,<br> manage and develop your web presence exactly the way you want.</center>
+</div>
+<br>
+<br>
+<div id="but">
+	<center><button><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/get%20started.html">Get Started</a> </button></center>
+</div>
+<br>
+<br>
+<br>
+<div id="div">
+	<div class="div1"><img src="pic3.webp"></div>
+	<div class="div2"><img src="1.webp"></div>
+	<div class="div3"><img src="pic4.webp"></div>
+</div>
+<div id="div2">
+	<div class="div1">The Freedom to Create <br>the Websites You Want </div>
+	<div class="div2">Design and build your own high-quality websites.<br> Whether you’re promoting your business, showcasing<br> your work, opening your store or starting a blog—you <br>can do it all with the Wix website builder.
+		<br>
+
+		<br>
+		<p>Get Started&#8594</p></div>
+</div>
+<div id="div3">
+	<div class="div1"><b>Build Your Unique<b>Online Presence</b></b>
+<p>To create your own website, follow these steps:
+</p>
+<br>
+<br>
+<b>Customize your site</b>
+<br>
+ <h2 >Pick a template and customize<br> anything, or answer a few<br> questions and get a free<br> website designed just for you.
+ </h2>
+<b>Add advanced features</b>
+<br>
+<h2>Start your own blog, add an<br> online store and accept bookings<Br> online. You can always add more <br>features as you grow</h2>
+<br>
+<b>Edit your mobile view</b>
+<br>
+<h2>Check out the mobile-<Br>optimized version of your site.<br> Switch to the Mobile Editor to<br> personalize it even more.</h2>
+	</div>
+	<div class="div2"><img src="pic5.webp"></div>
+	<hr>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="div4">
+	<div class="div1"><img src="pic6.webp" width="75%" height="600px"></div>
+	<div class="div2"><b>Wix Editor<Br>
+Total Design Freedom</b>
+<br>
+<p>Start from scratch or choose from over 500<br> designer-made templates to make your own<br> website. With the world’s most innovative drag<br>and drop website builder, you can customize or<br> change anything. Make your site come to life with<br> video backgrounds, scroll effects and animation.<br>With the Wix Editor, you can create your own<br> professional website that looks stunning.</p>
+<br>
+  <a href="#">Get Started&#8594</a> 
+</div>
+	<div class="div3"><b>Wix ADI<br>
+Get Online Fast
+</b>
+<br>
+<p>Answer a few simple questions and Wix ADI<br> (Artificial Design Intelligence) will instantly<br> build a personalized website just for you,<br> complete with custom text and images.<br> Choose your style, change the layout and add <br>any features you need for your business, like <br>an online store or booking system. When <br>you’re ready, go live in a click.</p>
+<br>
+<a href="#">Get Started&#8594</a> 
+</div>
+	<div class="div4"><b>Corvid by Wix
+Open Dev Platform</b>
+<br>
+<p>Build professional web applications with <br>serverless computing and hassle-free coding.<br> Manage all your content from integrated<br>databases, add your own code in the built-in IDE<br> or work in your own environment, and connect<br> to 100s of APIs. Plus, you get total design<br> freedom from the Wix Editor and optimized<br> business applications</p>
+<br>
+<a href="#">Get Started&#8594</a> 
+</div>
+	<div class="div5"><img src="pic7.webp"></div>
+	<div class="div6"><img src="pic10.jpeg"></div>
+</div>
+<br>
+<br>
+<div id="get">
+<b>Get Professional Features for Your Website<hr width="50%"></b>
+</div>
+<br>
+<br>
+<div id="you">
+	<b>You can make your own website <br>exactly the way you want, whether<br> it’s your first time creating a site or<br> you’re a long time pro.</b>
+</div>
+<br>
+<br>
+<br>
+<div id="div5">
+	<div class="div1"><img src="pic11.webp" width="500px" height="200px"><br>
+		<b>Beautiful Blog</b>
+		<br>
+<p>Create a stunning blog, grow your<br> community and share your ideas.</p>
+<p><a href="#">Create a Free Blog |
+Learn How</a> </p>
+	</div>
+	<div class="div2"><img src="pic12.webp" width="500px" height="300px"><br><b>Logo Maker</b><br>
+		<p>Design your own professional logo<br>and build your brand online</p>
+		<p><a href="#">Try Wix Logo Maker</a></p></div>
+	<div class="div3"><img src="pic13.webp" width="300px" height="450px"><br><b>Mobile Optimised</b>
+		<p>Look amazing on every screen<br> with a mobile version of your site.</p></div>
+	<div class="div4"><img src="pic14.webp"><br><b>Online Store</b><p>Build your online business with a<br>powerful ecommerce platform.</p><br>
+		<p><a href="#">Create an online store</a></p></div>
+	<div class="div5"><img src="pic15.webp"><br><b>The Best SEO</b><br>
+		<p>Get found on search engines like <br>Google with advanced SEO tools.</p>
+		<p><a href="#">Find Out More</a></p></div>
+	<div class="div6"><img src="pic16.webp"><br>
+		<b>Custom Domains</b>
+		<br>
+<p>Get a professional domain name that<br>matches your business and brand </p>
+<br>
+<p><a href="#">Get Custom Domain Names</a> </p>
+	</div>
+</div>
+<div id="div6">
+<div class="div1"><img src="pic17.jpeg" width="90%" height="790px"></div>
+<div class="div2"><b>Manage and Grow<br> Your Business Online</b><br>
+<p>The Wix website builder makes it possible for<br>anyone to create a website and manage their<br>business—all in one place. Effortlessly capture<br>leads, build customer relationships and accept<br>payments right from your website.</p>
+<br>
+<p><a href="#">Get Started&#8594</a> </p>
+</div>
+</div>
+<div id="div7">
+	<div class="div1"><b>Why the Wix Website<br>Builder Is the Best<br>Choice for You</b></div>
+	<div class="div2"><b>You can create a free and professional website all on your own. With Wix, you can start with a stunning template and customize it, or get a personalized website made just for you. When you choose Wix, you don’t just get a drag and drop website builder. You get the whole package. Free reliable web hosting, top security, the best SEO and a dedicated support team to help you along the way.
+
+​</b>
+<br>
+<br>
+<br>
+<br>
+Over 160 million people worldwide choose Wix to create a free website. And you can do it, too.
+<br>
+<br>
+<br>
+<br>
+  <a href="#"> Get Started&#8594</a></div>
+</div>
+<div id="how">
+	<h2>How to Create a Free Website </h2>
+
+	<h5>Follow these 6 simple steps to create a website today.</h5>
+	<br>
+	<br>
+	<br>
+	<p>1.<b>Sign up for a free website builder.</b> Choose what kind of website you want to create.
+<br>
+<br>
+2.<b>Customize a template or get a website made for you.</b> Choose your starting point.
+<br>
+<Br>
+3.<b>Drag and drop 100s of design features.</b> Add text, galleries, videos, vector art and more.
+<br>
+<br>
+4.<b>Get ready for business. </b>Add an online store, booking system, members area and blog.
+<br>
+<br>
+5.<b>Publish your website and go live.</b> Start building your professional online presence.
+<Br>
+<br>
+6.<b>Drive traffic to your site.</b> Use advanced SEO tools and integrated marketing solutions.</p>
+<Br>
+<br>
+ <b><a href="#">Get Started&#8594</a></b> <b><a href="#">Learn How to create&#8594</a></b>
+
+</div>
+<br>
+<br>
+<div id="stu">
+	<h2>Stunning Templates</h2>
+	<br>
+	<h4>Start with free HTML website template and bring your vision to your life </h4>
+</div>
+<div id="div8">
+	<div class="div1"><abbr tittle="Health and wellness"><a href="#"><img src="pic18.webp"></a><br><b>Health & Wellness </b><br><p>Psychologist</p> </div></abbr>
+	<div class="div2"><a href="#"> <img src="pic19.webp"></a><b>Events</b><br><p>One Day Festival
+
+</p></div>
+	<div class="div3"><a href="#"><img src="pic20.webp"></a><b>Design</b><br><p>Architect Company</p></div>
+	<div class="div4"><a href="#"><img src="pic21.webp"></a><b>Business</b><br><p>Home Organizer</p></div>
+	<div class="div5"><a href="#"><img src="pic22.webp"></a><b>Portfolio & CV</b><Br><p>Art Director</p></div>
+	<div class="div6"><a href="#"><img src="pic23.webp"></a><b>Video</b><br><p>Music Video Director</p></div>
+</div>
+<br>
+<div id="see">
+<center><a href="#">See All Template&#8594</a></center>	
+</div>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+ <center>This website is designed by <b>wix</b></center>
+ <br>
+ <br>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="div9">
+	<div class="div1"><center><b>Product</b><br><br>
+	</center>
+<center>
+	<a href="#">Templates
+<br>
+Explore
+<br>
+Features
+<br>
+Website Builder
+<br>
+Corvid
+<br>
+Wix Playground
+<br>
+My Sites
+<br>
+Premium Plans
+<br>
+Wix SEO
+<br>
+Logo Maker
+<br>
+Start a Blog
+<br>
+Online Store
+<br>
+Wix Bookings
+<br>
+App Market
+<br>
+Domains
+<br>
+Business Email
+<br>
+Web Hosting
+<br>
+CX Software
+<br>
+Developers
+<br>
+Enterprise
+<br>
+Email Marketing
+<br>
+Website Design
+<br>
+</a>
+</center>
+</div>
+	<div class="div2"><b>Company</b><br>
+		<p><a href="#">About Wix
+<br>
+Press Room
+<br>
+Investor Relations
+<br>
+Wix Jobs
+<br>
+Design Assets
+<br>
+Terms of Use
+<br>
+App Market Terms
+<br>
+Privacy Policy
+<br>
+Accessibility Statement
+<br>
+Abuse
+<br>
+Affiliates
+<br>
+Wix Capital
+<br>
+Updates & Releases
+<br>
+Contact Us
+<br>
+Patent Notice
+<br>
+Sitemap</p></a></div>
+	<div class="div3"><b>Community</b><p><a href="#">Wix Blog
+<br>
+Wix Marketplace
+<br>
+Student Website
+<Br>
+Partner Community</a></p></div>
+	<div class="div4"><b>Support</b><p><a href="#">Support center</a></p></div>
+	<div class="div5"><img src="nav.png"><Br>
+     <p>Wix.com is a leading cloud-based<Br> development platform with millions of<br> users worldwide. We make it easy for <br>everyone to create a beautiful,<br> professional web presence</p>
+     <br>
+     <br>
+     <p>Promote your business, showcase your art, set up an online shop or just test out new ideas. The Wix website builder has everything you need to create a fully personalized, high-quality free website.
+
+© 2006-2020 Wix.com, Inc</p>
+<br>
+<br>
+<a href="#"><img src="pic24.webp"><img src="pic25.webp"><img src="pic26.webp"><img src="pic27.webp"><img src="pic28.webp"><img src="pic29.webp"></a>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		#nav
+		{
+			overflow: hidden;
+			display: inline;
+		}
+		#nav img
+		{
+			margin:0px;
+		}
+		#nav ul
+		{
+			
+			float: right;
+		}
+		#nav ul li
+		{
+			display: inline;
+			margin: 20px;
+			margin-right: 90px;
+		}
+		#nav ul li a
+		{
+			text-decoration: none;
+			color:black;
+			font-family: arial;
+		}
+		#nav ul button
+		{
+			width: 80px;
+			margin-right: 20px;
+			height: 40px;
+			border-radius: 5px;
+			background-color: white;
+			border-color: #3E60F3;
+		}
+		#nav ul button a
+		{
+			text-decoration: none;
+			color: #3E60F3;
+			font-family:arial;
+			font-weight: 30px;
+		}
+		#nav ul button:hover
+		{
+			background-color: #3E60F3;
+		}
+        #nav ul button a:hover
+        {
+        	color: white;
+        }
+        #div1
+        {
+        	display: grid;
+        	
+        	height: 100px;
+        	grid-template-columns: repeat(2,1fr);
+        }
+        #div1 .div1
+        {
+        	text-align: center;
+        	margin-top:30px;
+        	font-size: 30px;
+        	font-family: sans-serif;
+
+        }
+        #div1 .div2
+        {
+        	position:relative;
+        	margin-top:20px;
+             margin-left:260px;
+             margin-right: 30px;
+        }
+        #div1 .div2 input
+        {
+
+        	width: 300px;
+        	border:none;
+        	border-bottom: 1px solid black;
+        }
+        #div1 .div2 button
+        {
+            height:30px;
+            width:100px;
+            cursor: pointer;
+            color: white;
+            background-color:#2196F3;
+        }
+        #div1 .div2 button i
+        {
+        	color:white;
+        }
+        #div3
+        {
+        	margin:100px;
+        	font-size: 30px;
+        	font-family: arial;
+        	margin-left: 40px;
+        }
+        #div4 
+        {
+        	display: grid;
+        	height: 1500px;
+        	
+        	grid-template-rows: repeat(4,1fr);
+        	grid-template-columns: repeat(3,1fr);
+
+        	 }
+        	 #div4 .div1 video
+        	 {
+        	 	margin:0px;
+        	 	height: 80%;
+        	 	margin-left: 10px;
+        	 }
+        	 #div4 .div1 video:hover
+        	 {
+        	 	background:#ddd;
+        	 	color: black;
+
+        	 }
+        	 #div4 .div1 b
+        	 {  
+        	 	font-size:30px;
+        	 	margin-left: 140px;
+        	 	font-family:monospace;
+        	 }
+        	  #div4 .div2 video
+        	 {
+        	 	margin:0px;
+        	 	height: 80%;
+        	 	margin-left: 10px;
+        	 }
+        	 #div4 .div2 b
+        	 {  
+        	 	font-size:30px;
+        	 	margin-left: 140px;
+        	 	font-family:monospace;
+        	 }
+        	  #div4 .div3 video
+        	 {
+        	 	margin:0px;
+        	 	height: 80%;
+        	 	margin-left: 10px;
+        	 }
+        	 #div4 .div3 b
+        	 {  
+        	 	font-size:30px;
+        	 	margin-left: 140px;
+        	 	font-family:monospace;
+        	 }
+        	   #div4 .div4 video
+        	 {
+        	 	margin:0px;
+        	 	height: 80%;
+        	 	margin-left: 10px;
+        	 }
+        	 #div4 .div4 b
+        	 {  
+        	 	font-size:30px;
+        	 	margin-left: 140px;
+        	 	font-family:monospace;
+        	 }
+        	  #div4 .div5 video
+        	 {
+        	 	margin:0px;
+        	 	height: 80%;
+        	 	margin-left: 10px;
+        	 }
+        	 #div4 .div5 b
+        	 {  
+        	 	font-size:30px;
+        	 	margin-left: 140px;
+        	 	font-family:monospace;
+        	 }
+        	   #div4 .div6 video
+        	 {
+        	 	margin:0px;
+        	 	height: 80%;
+        	 	margin-left: 10px;
+        	 }
+        	 #div4 .div6 b
+        	 {  
+        	 	font-size:30px;
+        	 	margin-left: 140px;
+        	 	font-family:monospace;
+        	 }
+        	 #div4 .div7 img
+         	 {
+        	 	margin-left: 15px;
+        	 }
+        	 #div4 .div7 img:hover
+        	 {
+        	 	transition:1s ; 
+        	 	width:70%;
+        	 	height:70%;
+
+        	 }
+        	 #div4 .div7 p
+        	 {
+        	 	margin-left: 105px;
+        	 	font-family: monospace;
+        	 	font-size: 30px;
+        	 }
+      
+       #div4 .div8 video
+        	 {
+        	 	margin:0px;
+        	 	height: 80%;
+        	 	margin-left: 10px;
+        	 }
+        	 #div4 .div8 b
+        	 {  
+        	 	font-size:30px;
+        	 	margin-left: 140px;
+        	 	font-family:monospace;
+        	 }
+        	  #div4 .div9 video
+        	 {
+        	 	margin:0px;
+        	 	height: 80%;
+        	 	margin-left: 10px;
+        	 }
+        	 #div4 .div9 b
+        	 {  
+        	 	font-size:30px;
+        	 	margin-left: 140px;
+        	 	font-family:monospace;
+        	 }
+        	 	 #div4 .div10 img
+         	 {
+        	 	margin-left: 15px;
+        	 }
+        	 #div4 .div10 img:hover
+        	 {
+        	 	transition:1s ; 
+        	 	width:70%;
+        	 	height:70%;
+
+        	 }
+        	 #div4 .div10 b
+        	 {
+        	 	margin-left: 105px;
+        	 	font-family: monospace;
+        	 	font-size: 30px;
+        	 }
+        	  #div4 .div11 video
+        	 {
+        	 	margin:0px;
+        	 	height: 80%;
+        	 	margin-left: 10px;
+        	 }
+        	 #div4 .div11 b
+        	 {  
+        	 	font-size:30px;
+        	 	margin-left: 140px;
+        	 	font-family:monospace;
+        	 }
+        	  #div4 .div12 video
+        	 {
+        	 	margin:0px;
+        	 	height: 80%;
+        	 	margin-left: 10px;
+        	 	
+        	 }
+        	 #div4 .div12 b
+        	 {  
+        	 	font-size:30px;
+        	 	margin-left: 140px;
+        	 	font-family:monospace;
+        	 }
+        	   #div9
+          {
+          	display: grid;
+          	margin:0px;
+          	width: 100%;
+          	height: 800px;
+          	grid-template-columns: repeat(5,1fr);
+          }
+          #div9 .div1
+          {
+          	margin-left: 30px;
+          	display:inline;
+          }
+          #div9 .div1 b
+          {
+          	font-size: 30px;
+          	font-family: sans-serif;
+          }
+          #div9 .div1 a
+          {
+          	text-decoration:none;
+          	font-size: 20px;
+          	font-family:Sanskrit Text;
+          	color: black;
+          }
+          #div9 .div2 b
+          {
+          	font-size: 30px;
+          	font-family: sans-serif;
+          }
+#div9 .div2 a
+          {
+          	text-decoration:none;
+          	font-size: 20px;
+          	font-family:Sanskrit Text;
+          	color: black;
+          }
+           #div9 .div3 b
+          {
+          	font-size: 30px;
+          	font-family: sans-serif;
+          }
+          #div9 .div3 a
+          {
+          	text-decoration:none;
+          	font-size: 20px;
+          	font-family:Sanskrit Text;
+          	color: black;
+          }
+           #div9 .div4 b
+          {
+          	font-size: 30px;
+          	font-family: sans-serif;
+          }
+          #div9 .div4 a
+          {
+          	text-decoration:none;
+          	font-size: 20px;
+          	font-family:Sanskrit Text;
+          	color: black;
+          }
+
+	</style>
+</head>
+<body>
+<div id="nav">
+<img src="nav.png" width="80px" height="70px">
+	<ul>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/feature.html">Features</a></li>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/explore.html">Explore</a></li>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/subscription.html">Subscription</a></li>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/temp.html">Template</a></li>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/partner.html">Wix partner</a></li>
+		
+		<button><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/get%20started.html">Sign Up</a></button>
+	</ul>
+</div>
+	  <hr>
+
+
+<div id="div1">
+	<div class="div1"><b>Pick the Website Template You Love
+</b></div>
+	<div class="div2"><input type="text" name="text" placeholder="search..">
+  <button type="submit"><i class="fa fa-search">&#8594</i></button>
+  <br>
+
+	</div>
+</div>
+	  <hr>
+
+
+<div id="div3">
+	<b>
+All Website Templates</b>
+</div>
+<br>
+<div id="div4">
+	<div class="div1">
+		<video width="90%" height="80%" controls loop="autoplay">
+		<source src="vid1.mp4" type="video/mp4"> 
+		<source src="vid1.ogg" type="video/ogg">
+	</video>
+<br>
+<b>Coming soon</b>
+</div>
+	<div class="div2">	<video width="90%" height="80%" controls loop="autoplay">
+		<source src="vid2.mp4" type="video/mp4"> 
+		<source src="vid2.ogg" type="video/ogg">
+	</video>
+<b>Success Coach</b>
+</div>
+	<div class="div3">
+	<video width="90%" height="80%" controls loop="autoplay">
+		<source src="vid3.mp4" type="video/mp4"> 
+		<source src="vid3.ogg" type="video/ogg">
+	</video>
+		<b>
+		Construction Company
+	</b></div>
+	<div class="div4"><video width="90%" height="80%"controls loop="autoplay">
+		<source src="vid4.mp4" type="video/mp4"> 
+		<source src="vid4.ogg" type="video/ogg">
+	</video>
+<b>Sports Nutrition </b>
+</div>
+	<div class="div5"><video width="90%" height="80%" controls loop="autoplay">
+		<source src="vid5.mp4" type="video/mp4"> 
+		<source src="vid5.ogg" type="video/ogg">
+	</video>
+
+<b>
+
+The Consultant</b></div>
+	<div class="div6"><video width="90%" height="80%" controls loop="autoplay">
+		<source src="vid6.mp4" type="video/mp4"> 
+		<source src="vid6.ogg" type="video/ogg">
+	</video>
+
+<b>
+
+Virtual Assistant</b></div>
+	<div class="div7"><img src="pic57.webp" width="90%" height="80%"><p>Modeling Agency</p></div>
+	<div class="div8"><video width="90%" height="80%" controls loop="autoplay">
+		<source src="vid7.mp4" type="video/mp4"> 
+		<source src="vid7.ogg" type="video/ogg">
+	</video>
+<br>
+<B>Brow Bar</B></div>		
+	<div class="div9"><video width="90%" height="80%"  controls loop="autoplay">
+		<source src="vid8.mp4" type="video/mp4"> 
+		<source src="vid8.ogg" type="video/ogg">
+	</video>
+<br>
+<B>
+
+Vintage Car Garage</B></div>
+	<div class="div10"><img src="pic58.webp" width="80%" height="80%"><br>
+		<b>Food Photographer</b>
+	</div>
+	<div class="div11"><video width="90%" height="80%"  controls loop="autoplay">
+		<source src="vid8.mp4" type="video/mp4"> 
+		<source src="vid8.ogg" type="video/ogg">
+	</video>
+<Br>
+<b>Graffiti Artist</b>
+</div>
+	<div class="div12">
+		
+		<video width="90%" height="90%" controls loop="autoplay">
+		<source src="vid9.mp4" type="video/mp4"> 
+		<source src="vid9.ogg" type="video/ogg">
+	</video>
+	<br>
+	<B>Plant Boutique</B>
+	</div>
+</div>
+<br>
+<br>
+<hr>
+<div id="div9">
+	<div class="div1"><center><b>Product</b><br><br>
+	</center>
+<center>
+	<a href="#">Templates
+<br>
+Explore
+<br>
+Features
+<br>
+Website Builder
+<br>
+Corvid
+<br>
+Wix Playground
+<br>
+My Sites
+<br>
+Premium Plans
+<br>
+Wix SEO
+<br>
+Logo Maker
+<br>
+Start a Blog
+<br>
+Online Store
+<br>
+Wix Bookings
+<br>
+App Market
+<br>
+Domains
+<br>
+Business Email
+<br>
+Web Hosting
+<br>
+CX Software
+<br>
+Developers
+<br>
+Enterprise
+<br>
+Email Marketing
+<br>
+Website Design
+<br>
+</a>
+</center>
+</div>
+	<div class="div2"><b>Company</b><br>
+		<p><a href="#">About Wix
+<br>
+Press Room
+<br>
+Investor Relations
+<br>
+Wix Jobs
+<br>
+Design Assets
+<br>
+Terms of Use
+<br>
+App Market Terms
+<br>
+Privacy Policy
+<br>
+Accessibility Statement
+<br>
+Abuse
+<br>
+Affiliates
+<br>
+Wix Capital
+<br>
+Updates & Releases
+<br>
+Contact Us
+<br>
+Patent Notice
+<br>
+Sitemap</p></a></div>
+	<div class="div3"><b>Community</b><p><a href="#">Wix Blog
+<br>
+Wix Marketplace
+<br>
+Student Website
+<Br>
+Partner Community</a></p></div>
+	<div class="div4"><b>Support</b><p><a href="#">Support center</a></p></div>
+	<div class="div5"><img src="nav.png"><Br>
+     <p>Wix.com is a leading cloud-based<Br> development platform with millions of<br> users worldwide. We make it easy for <br>everyone to create a beautiful,<br> professional web presence</p>
+     <br>
+     <br>
+     <p>Promote your business, showcase your art, set up an online shop or just test out new ideas. The Wix website builder has everything you need to create a fully personalized, high-quality free website.
+
+© 2006-2020 Wix.com, Inc</p>
+<br>
+<br>
+<a href="#"><img src="pic24.webp"><img src="pic25.webp"><img src="pic26.webp"><img src="pic27.webp"><img src="pic28.webp"><img src="pic29.webp"></a>
+	</div>
+</div>
+</body>
+</html>

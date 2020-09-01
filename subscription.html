@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+	#nav
+		{
+			overflow: hidden;
+			display: inline;
+		}
+		#nav img
+		{
+			margin:0px;
+		}
+		#nav ul
+		{
+			
+			float: right;
+		}
+		#nav ul li
+		{
+			display: inline;
+			margin: 20px;
+			margin-right: 90px;
+		}
+		#nav ul li a
+		{
+			text-decoration: none;
+			color:black;
+			font-family: arial;
+		}
+		#nav ul button
+		{
+			width: 80px;
+			margin-right: 20px;
+			height: 40px;
+			border-radius: 5px;
+			background-color: white;
+			border-color: #3E60F3;
+		}
+		#nav ul button a
+		{
+			text-decoration: none;
+			color: #3E60F3;
+			font-family:arial;
+			font-weight: 30px;
+		}
+		#nav ul button:hover
+		{
+			background-color: #3E60F3;
+		}
+        #nav ul button a:hover
+        {
+        	color: white;
+        }
+        #div1
+        {
+        	display: grid;
+        	margin:0px;
+        
+        	width: 100%;
+        	height: 430px;
+        	grid-template-rows:repeat(3,1fr);
+        	grid-template-columns:repeat(1,1fr); 
+        	background-color: #27AE60;
+        }
+        #div1 .div1 
+        {
+            text-align: center;
+            margin-top: 30px;
+
+        }
+        #div1 .div1 b
+        {
+        	 font-size: 40px;
+        	 font-family: sans-serif;
+        	 color: white;
+        }
+         #div1 .div2
+        {
+            text-align: center;
+            margin-left:25px;
+
+        }
+         #div1 .div2 b
+        {
+        	 font-size: 20px;
+        	 font-family:cursive;
+        	 color: white;
+        }
+        #div1 .div3
+        {
+        	text-decoration: none;
+        }
+        #div1 .div3 button
+        {
+        	width:150px;
+        	height: 40px;
+        	border:1px;
+        	border-radius:30px; 
+        	margin-left: 430px;
+        	border-color:white;
+
+        }
+        #div1 .div3 button a
+        {
+        	text-decoration: none; 
+        	font-family: sans-serif;
+        	color:green; 
+        	margin-bottom: 10px;
+        }
+        #div2 
+        {
+        	display: grid;
+        	
+        	height: 600px;
+        	grid-template-columns: repeat(2,1fr);
+        }
+        #div2 .div1 b
+        {
+             font-family: arial;
+             font-size: 40px;
+             margin-left: 50px;
+
+        }
+        #div2 .div1 p
+        {
+             font-family: sans-serif;
+             font-size: 25px;
+             margin-left: 50px;
+
+        }
+         #div2 .div1 a
+        {
+             font-family: sans-serif;
+             font-size: 25px;
+             margin-left: 50px;
+             color: green;
+        }
+        #div2 .div1 a:hover
+        {
+        	color: blue;
+        }
+        #div3 
+        {
+        	display: grid;
+        	margin: 30px auto;
+        	height: 500px;
+        	background-color:E5E7E9;
+        	
+        	grid-template-rows:50%,50%;
+        	grid-template-columns:repeat(3,1fr); 
+        }
+        #div3 .div4
+        {
+         width: 100%;
+         grid-row: -1/1;
+         grid-column: 1/-1;
+         font-family: sans-serif;
+         font-size: 50px;
+         margin:30px;
+        }
+        #div3 .div1
+        {
+        	margin:30px;
+
+        }
+
+        
+        #div3 .div1 b
+        {
+        	font-family: arial;
+        } 
+        #div3 .div2 img
+        {
+        	margin:20px;
+        }
+        #div3 .div2 b
+        {
+        	font-family: arial;
+        	margin-left: 30px;
+        }
+
+        #div3 .div3 img
+        {
+        	margin:20px;
+        }
+        #div3 .div3 b
+        {
+        	font-family: arial;
+        	margin-left: 30px;
+        }
+        #div4
+        {
+        	display: grid;
+        	
+        	height: 300px;
+
+        }
+        #div4 .div1
+        {
+        	font-family: algerian;
+        	font-size: 40px;
+        	color:blue;
+        	padding:12px 21px 12px; 
+        }
+        #div4 .div1
+        {
+        	margin:10px;
+        }
+         #div9
+          {
+          	display: grid;
+          	margin:0px;
+          	width: 100%;
+          	height: 800px;
+          	grid-template-columns: repeat(5,1fr);
+          }
+          #div9 .div1
+          {
+          	margin-left: 30px;
+          	display:inline;
+          }
+          #div9 .div1 b
+          {
+          	font-size: 30px;
+          	font-family: sans-serif;
+          }
+          #div9 .div1 a
+          {
+          	text-decoration:none;
+          	font-size: 20px;
+          	font-family:Sanskrit Text;
+          	color: black;
+          }
+          #div9 .div2 b
+          {
+          	font-size: 30px;
+          	font-family: sans-serif;
+          }
+        #div9 .div2 a
+          {
+          	text-decoration:none;
+          	font-size: 20px;
+          	font-family:Sanskrit Text;
+          	color: black;
+          }
+           #div9 .div3 b
+          {
+          	font-size: 30px;
+          	font-family: sans-serif;
+          }
+          #div9 .div3 a
+          {
+          	text-decoration:none;
+          	font-size: 20px;
+          	font-family:Sanskrit Text;
+          	color: black;
+          }
+           #div9 .div4 b
+          {
+          	font-size: 30px;
+          	font-family: sans-serif;
+          }
+          #div9 .div4 a
+          {
+          	text-decoration:none;
+          	font-size: 20px;
+          	font-family:Sanskrit Text;
+          	color: black;
+          }
+</style>
+</head>
+<body>
+<div id="nav">
+<img src="nav.png" width="80px" height="70px">
+	<ul>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/feature.html">Features</a></li>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/explore.html">Explore</a></li>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/subscription.html">Subscription</a></li>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/temp.html">Template</a></li>
+		<li><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/partner.html">Wix partner</a></li>
+		
+		<button><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/get%20started.html">Sign Up</a></button>
+	</ul>
+</div>
+<div id="div1">
+	<div class="div1"><b>Get Your Professional <br>
+Business Email Address</b></div>
+
+	<div class="div2"><b>Take every opportunity to build your brand. With Wix, you can get a<br> professional website and custom email address for your business</b></div>
+
+	<div class="div3"><button><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/get%20started.html">Get Started</a></button></div>
+</div>
+<br>
+<Br>
+<div id="div2">
+	<div class="div1"><b>What Is a Business Email Address?</b>
+		<br>
+<p>It’s a personalized email address using your domain name. <br>For example name@mystunningwebsite.com.
+A business email address makes a<br> great professional impression. With Wix, you can get<Br> a Gmail work email address for each team <br>or individual team member. This is a great way to show customers<br> they’re communicating with the right person. 
+<br>
+<br>
+<br>
+<br>
+<Br
+>
+Here are some options you may want to start with:<br>
+name@mystunningwebsite.com<br>
+sales@mystunningwebsite.com
+contact@mystunningwebsite.com</p>
+  <br>
+  <a href="#">Start Now &#8594</a>
+
+	</div>
+	<div class="div2"><img src="pic44.webp" width="100%" height="600px"></div>
+</div>
+<div id="div3">
+	<div class="div1"><img src="pic45.jpg" width="180px" height="180px">
+		<br>
+		<br>
+<b>Build Trust with Customers</b>
+<br>
+<p>Show you’re credible-customers<br> often expect businesses <Br>to have an email address <br>with their company name</p>
+	</div>
+	<div class="div2"><img src="pic46.jpg" height="180px" width="180px">
+		<br>
+<b>
+	Look Professional
+</b>
+<br>
+<p>Generate and send invoices and emails from<br> your business email account. Research shows this <br>can improve your open rates.</p>
+	</div>
+	<div class="div3"><img src="pic47.png" width="180px" width="190px">
+<br>
+		<b>Strengthen Your Brand</b>
+<p>Promote your brand everywhere by<br>adding your custom email address to<br>your business card, website and more.</p>
+	</div>
+	<div class="div4">Here's Why You Need A Custom Email</div>
+</div>
+<div id="div4">
+	 <div class="div1"><center>Join us</center></div> 
+	 <Br>
+	 <div class="div2"><a href="file:///C:/Users/Anupam%20Upadhyay/Desktop/wix/thank.html"> <img src="pic48.png"><img src="pic50.jpg"><img src="pic51.png"><img src="pic52.png"><img src="pic53.png"><img src="pic55.png" height="120px"> </a> </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<div id="div9">
+	<div class="div1"><center><b>Product</b><br><br>
+	</center>
+<center>
+	<a href="#">Templates
+<br>
+Explore
+<br>
+Features
+<br>
+Website Builder
+<br>
+Corvid
+<br>
+Wix Playground
+<br>
+My Sites
+<br>
+Premium Plans
+<br>
+Wix SEO
+<br>
+Logo Maker
+<br>
+Start a Blog
+<br>
+Online Store
+<br>
+Wix Bookings
+<br>
+App Market
+<br>
+Domains
+<br>
+Business Email
+<br>
+Web Hosting
+<br>
+CX Software
+<br>
+Developers
+<br>
+Enterprise
+<br>
+Email Marketing
+<br>
+Website Design
+<br>
+</a>
+</center>
+</div>
+	<div class="div2"><b>Company</b><br>
+		<p><a href="#">About Wix
+<br>
+Press Room
+<br>
+Investor Relations
+<br>
+Wix Jobs
+<br>
+Design Assets
+<br>
+Terms of Use
+<br>
+App Market Terms
+<br>
+Privacy Policy
+<br>
+Accessibility Statement
+<br>
+Abuse
+<br>
+Affiliates
+<br>
+Wix Capital
+<br>
+Updates & Releases
+<br>
+Contact Us
+<br>
+Patent Notice
+<br>
+Sitemap</p></a></div>
+	<div class="div3"><b>Community</b><p><a href="#">Wix Blog
+<br>
+Wix Marketplace
+<br>
+Student Website
+<Br>
+Partner Community</a></p></div>
+	<div class="div4"><b>Support</b><p><a href="#">Support center</a></p></div>
+	<div class="div5"><img src="nav.png"><Br>
+     <p>Wix.com is a leading cloud-based<Br> development platform with millions of<br> users worldwide. We make it easy for <br>everyone to create a beautiful,<br> professional web presence</p>
+     <br>
+     <br>
+     <p>Promote your business, showcase your art, set up an online shop or just test out new ideas. The Wix website builder has everything you need to create a fully personalized, high-quality free website.
+
+© 2006-2020 Wix.com, Inc</p>
+<br>
+<br>
+<a href="#"><img src="pic24.webp"><img src="pic25.webp"><img src="pic26.webp"><img src="pic27.webp"><img src="pic28.webp"><img src="pic29.webp"></a>
+	</div>
+</div>
+</body>
+</html>
